@@ -41,8 +41,8 @@ public class Titular {
         this.pasaporte = pasaporte;
         if (pasaporte != null && pasaporte.getTitular() != this) {
             pasaporte.setTitular(this);
+        }
     }
-
+}
    
     
-}
