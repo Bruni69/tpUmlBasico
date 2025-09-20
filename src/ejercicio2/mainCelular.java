@@ -1,6 +1,9 @@
-public class TpUml2 {
+package ejercicio2;
+
+
+public class mainCelular {
     public static void main(String[] args) {
-        Usuario usuario =new Usuario("bruno","30262242");
+       Usuario usuario =new Usuario("bruno","30262242");
        Celular celular = new Celular("0123456","nyso","s10");
        Bateria bateria = new Bateria("h1n1","10 mAmp");
        

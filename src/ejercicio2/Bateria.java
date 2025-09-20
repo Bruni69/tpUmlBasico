@@ -1,4 +1,14 @@
-public class Bateria {
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package ejercicio2;
+
+/**
+ *
+ * @author User
+ */
+class Bateria {
     private String modelo;
     private String capacidad;
 
@@ -22,6 +32,4 @@ public class Bateria {
     public void setCapacidad(String capacidad) {
         this.capacidad = capacidad;
     }
-    
-    
 }

@@ -1,5 +1,15 @@
-public class Usuario {
-    private String nombre;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package ejercicio2;
+
+/**
+ *
+ * @author User
+ */
+class Usuario {
+     private String nombre;
     private String DNI;
 
     public Usuario(String nombre, String DNI) {
@@ -22,5 +32,4 @@ public class Usuario {
     public void setDNI(String DNI) {
         this.DNI = DNI;
     }
-    
 }
